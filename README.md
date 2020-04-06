@@ -1,4 +1,4 @@
-#The Rick and Morty Search Engine
+# The Rick and Morty Search Engine
 ----------------------------------
 Busca toda la información que precises sobre Rick & Morty.
 
