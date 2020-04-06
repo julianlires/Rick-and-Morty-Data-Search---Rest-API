@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/IIC3103-Tarea-1/static/css/main.ada93ddc.chunk.css",
-    "main.js": "/IIC3103-Tarea-1/static/js/main.dde94af2.chunk.js",
-    "main.js.map": "/IIC3103-Tarea-1/static/js/main.dde94af2.chunk.js.map",
+    "main.css": "/IIC3103-Tarea-1/static/css/main.d61c6d25.chunk.css",
+    "main.js": "/IIC3103-Tarea-1/static/js/main.d1ba770d.chunk.js",
+    "main.js.map": "/IIC3103-Tarea-1/static/js/main.d1ba770d.chunk.js.map",
     "runtime-main.js": "/IIC3103-Tarea-1/static/js/runtime-main.522802a1.js",
     "runtime-main.js.map": "/IIC3103-Tarea-1/static/js/runtime-main.522802a1.js.map",
-    "static/js/2.1318a028.chunk.js": "/IIC3103-Tarea-1/static/js/2.1318a028.chunk.js",
-    "static/js/2.1318a028.chunk.js.map": "/IIC3103-Tarea-1/static/js/2.1318a028.chunk.js.map",
+    "static/js/2.1c1cc9e7.chunk.js": "/IIC3103-Tarea-1/static/js/2.1c1cc9e7.chunk.js",
+    "static/js/2.1c1cc9e7.chunk.js.map": "/IIC3103-Tarea-1/static/js/2.1c1cc9e7.chunk.js.map",
     "index.html": "/IIC3103-Tarea-1/index.html",
-    "precache-manifest.08e285cc054572f0f757e43508d09c5c.js": "/IIC3103-Tarea-1/precache-manifest.08e285cc054572f0f757e43508d09c5c.js",
+    "precache-manifest.ed00643684bcc580a6e16817d46e11f2.js": "/IIC3103-Tarea-1/precache-manifest.ed00643684bcc580a6e16817d46e11f2.js",
     "service-worker.js": "/IIC3103-Tarea-1/service-worker.js",
-    "static/css/main.ada93ddc.chunk.css.map": "/IIC3103-Tarea-1/static/css/main.ada93ddc.chunk.css.map",
-    "static/js/2.1318a028.chunk.js.LICENSE.txt": "/IIC3103-Tarea-1/static/js/2.1318a028.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/IIC3103-Tarea-1/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d61c6d25.chunk.css.map": "/IIC3103-Tarea-1/static/css/main.d61c6d25.chunk.css.map",
+    "static/js/2.1c1cc9e7.chunk.js.LICENSE.txt": "/IIC3103-Tarea-1/static/js/2.1c1cc9e7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/IIC3103-Tarea-1/static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.b95a0893.woff",
+    "static/media/morty.png": "/IIC3103-Tarea-1/static/media/morty.f5fa4799.png",
+    "static/media/rick.png": "/IIC3103-Tarea-1/static/media/rick.82926b7d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.522802a1.js",
-    "static/js/2.1318a028.chunk.js",
-    "static/css/main.ada93ddc.chunk.css",
-    "static/js/main.dde94af2.chunk.js"
+    "static/js/2.1c1cc9e7.chunk.js",
+    "static/css/main.d61c6d25.chunk.css",
+    "static/js/main.d1ba770d.chunk.js"
   ]
 }
