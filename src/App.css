@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container.my-container{
+  padding: 0 50px;
+}
+
+.text-link {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.div-link {
+  cursor: pointer;
+}
+
+.search-result {
+  margin-bottom: 10px;
+}
+
+#search-data {
+  z-index: 200;
+}
+
+.pages {
+  position:fixed;
+  z-index: 100;
+}
+
+.pages .card-body {
+  max-height: 90vh;
+  overflow: auto;
+}
