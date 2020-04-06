@@ -1,3 +1,42 @@
+@font-face {
+    font-family: 'get_schwiftyregular';
+    src: url('./fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff2') format('woff2'),
+         url('./fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General */
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: "apercu", sans-serif;
+}
+
+.text-link {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.div-link {
+  cursor: pointer;
+}
+
+/* Header */
+
+.header-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.header-title h1{
+  font-family: 'get_schwiftyregular'  !important;
+}
+
+
 .App {
   text-align: center;
 }
@@ -41,31 +80,105 @@
   padding: 0 50px;
 }
 
-.text-link {
-  color: black;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.div-link {
-  cursor: pointer;
-}
-
-.search-result {
-  margin-bottom: 10px;
-}
-
-#search-data {
-  z-index: 200;
-}
+/* Pages */
 
 .pages {
   position:fixed;
   z-index: 100;
 }
 
+.pages .card{
+  border-width: 3px;
+  background-color: transparent;
+  border-width: 0px;
+  color: white !important;
+}
+
 .pages .card-body {
   max-height: 90vh;
   overflow: auto;
+}
+
+.pages img {
+  max-width: 80%;
+}
+
+.pages button {
+  background-color: transparent;
+  color: white;
+}
+.pages button:hover {
+  background-color: #121d26;
+}
+
+/* Search results */
+
+#search-data {
+  z-index: 200;
+}
+
+#search-data label {
+  color: white;
+  margin-right: 5px;
+}
+
+#search-data label input{
+  margin-left: 2px;
+}
+
+.search-result p{
+  display: inline;
+  float: right;
+}
+
+.search-result i{
+  display: inline;
+  float: right;
+  margin-left: 4px;
+}
+
+.search-result h6{
+  display: inline;
+}
+
+.search-result .card {
+  border-radius: 0px;
+  border-top-color: white;
+  color: white !important;
+  background-color: #0d151b;
+}
+
+.search-result .card:hover {
+  border-radius: 0px;
+  color: white !important;
+  background-color: #121d26;
+}
+
+.search-result .card-body {
+  padding: 0.5rem;
+}
+
+/* Background images */
+
+body {
+  background: #080d11 url("https://yts-subs.com/assets/images/misc/bg-blue-01.png") no-repeat scroll center top;
+}
+
+#rick-image {
+  position: fixed;
+  right: -550px;
+  bottom: -400px;
+  transform: scaleX(-1);
+}
+
+#morty-image {
+  position: fixed;
+  left: -450px;
+  bottom: -600px;
+}
+
+/* End footer */
+
+.end-box {
+  height: 20vh;
 }

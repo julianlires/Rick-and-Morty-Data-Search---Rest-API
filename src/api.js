@@ -3,13 +3,13 @@ const API = 'https://rickandmortyapi.com/api/';
 
 export const searchEpisode = (query, page) => {
   let searchEpisodesUrl;
-  if (!query){ searchEpisodesUrl = API+`episode/`; }
+  if (!query){ searchEpisodesUrl = API+`episode/?page=${page}`; }
   else { searchEpisodesUrl = API+`episode/?name=${query}&page=${page}`; }
 
   return(
     fetch(searchEpisodesUrl)
     .then(response => {
-      if (response.status !== 200) { throw new Error("404"); }
+      if (response.status !== 200) { console.log(response.status); throw new Error("404"); }
       else { return response.json(); }
     })
   )
@@ -17,12 +17,12 @@ export const searchEpisode = (query, page) => {
 
 export const searchCharacter = (query, page) => {
   let searchCharactersUrl;
-  if (!query){ searchCharactersUrl = API+`character/`; }
+  if (!query){ searchCharactersUrl = API+`character/?page=${page}`; }
   else { searchCharactersUrl = API+`character/?name=${query}&page=${page}`; }
   return(
     fetch(searchCharactersUrl)
     .then(response => {
-      if (response.status !== 200) { throw new Error("404"); }
+      if (response.status !== 200) { console.log(response.status); throw new Error("404"); }
       else { return response.json(); }
     })
   )
@@ -30,12 +30,12 @@ export const searchCharacter = (query, page) => {
 
 export const searchLocation = (query, page) => {
   let searchLocationsUrl;
-  if (!query){ searchLocationsUrl = API+`location/`; }
+  if (!query){ searchLocationsUrl = API+`location/?page=${page}`; }
   else { searchLocationsUrl = API+`location/?name=${query}&page=${page}`; }
   return(
     fetch(searchLocationsUrl)
     .then(response => {
-      if (response.status !== 200) { throw new Error("404"); }
+      if (response.status !== 200) { console.log(response.status); throw new Error("404"); }
       else { return response.json(); }
     })
   )
