@@ -4,4 +4,4 @@ Search everything you need from the acclaimed TV series [Rick and Morty](https:/
 
 Application build over data from [Rick and Morty API](https://rickandmortyapi.com/) using ReactJS.
 
-A live version of tis app can be found [here](http://jlires.github.io/IIC3103-Tarea-1)
+A live version of tis app can be found [here](https://jlires.github.io/Rick-and-Morty-Data-Search---Rest-API/)
