@@ -1,5 +1,5 @@
 
-const API = 'https://integracion-rick-morty-api.herokuapp.com/api/';
+const API = 'https://rickandmortyapi.com/api/';
 
 export const searchEpisode = (query, page) => {
   let searchEpisodesUrl;
